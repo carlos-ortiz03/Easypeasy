@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "babel src -d lib",
+    "build-project": "node build-project.js",
+    "test": "jest"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -23,7 +26,8 @@
     "react-icons": "^4.6.0",
     "react-native": "0.69.6",
     "react-native-get-random-values": "^1.8.0",
-    "react-native-svg": "12.3.0"
+    "react-native-svg": "12.3.0",
+    "web3uikit": "^0.1.159"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

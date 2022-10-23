@@ -1,0 +1,32 @@
+{
+  "name": "productive-background",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-native-fontawesome": "^0.3.0",
+    "@react-native-camera-roll/camera-roll": "^5.0.4",
+    "expo": "~46.0.16",
+    "expo-image-picker": "~13.3.1",
+    "expo-status-bar": "~1.4.0",
+    "nanoid": "^4.0.0",
+    "react": "18.0.0",
+    "react-icons": "^4.6.0",
+    "react-native": "0.69.6",
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-svg": "12.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}

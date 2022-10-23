@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "Productive-Background",
+    "name": "Easypeasy",
     "slug": "Productive-Background",
+    "description": "This is an app that will track todo list and make it visible on the lock screen",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/lemon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
